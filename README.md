@@ -15,3 +15,10 @@ Based on measurement data, we aim to enhance the accuracy of our delayed tire mo
 [2] Xiaomi, “Mi electric scooter 3,” https://xiaomiofficial.hu/okoseszkoz/elektromos-rollerek/mi-electric-scooter-3/, [Online; accessed: 2023-09-09].
 
 [3] B. M. Györök, “Estimating the coefficient of friction based on the memory effect of an elastic tire,” Budapest University of Technology and Economics, Students’ Scientific Conference, 2022.
+
+# User guide
+- In the *SimulationEnv* directory, the closed-loop and open-loop simulation files can be found. Running the `MAIN_sim.m` file various steering control algorithms can be tested while running the `OpenLoop.m` file results in an open-loop simulation based on measurement inputs.
+- The *ODrive_experiments* directory contains the jupyter notebooks for different experiments with the self-balancing electric scooter.
+- The *ANN_ErrorPrediction* directory contains the training and test files and the script for the ANN-based conditional estimation.
+
+
